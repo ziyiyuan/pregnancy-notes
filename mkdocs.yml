@@ -1,0 +1,35 @@
+# MkDocs 配置：孕期记录 · Book
+site_name: 孕期记录
+site_description: 孕期事宜记录与待产包准备
+site_author: null
+repo_url: null  # 部署到 Git 后在此填写仓库地址，如 https://github.com/xxx/pg
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: pink
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: 深色模式
+    - scheme: slate
+      primary: pink
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 待产包准备:
+    - 北医三院产科入院清单: 待产包准备/北医三院产科入院清单.md
+
+plugins:
+  - search
