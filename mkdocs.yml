@@ -2,7 +2,11 @@
 site_name: 孕期记录
 site_description: 孕期事宜记录与待产包准备
 site_author: null
-repo_url: null  # 部署到 Git 后在此填写仓库地址，如 https://github.com/xxx/pg
+site_url: https://ziyiyuan.github.io/pregnancy-notes/  # 与 GitHub 仓库名一致
+repo_url: https://github.com/ziyiyuan/pregnancy-notes
+
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
@@ -30,6 +34,8 @@ nav:
   - 首页: index.md
   - 待产包准备:
     - 北医三院产科入院清单: 待产包准备/北医三院产科入院清单.md
+  - 孕期生活:
+    - 孕期菜单: 孕期生活/孕期菜单.md
 
 plugins:
   - search
